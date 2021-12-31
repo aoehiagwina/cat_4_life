@@ -1,0 +1,121 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background: wheat;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+  gap: 2rem;
+  justify-content: center;
+}
+
+.card {
+  overflow: hidden;
+  box-shadow: 0 2px 20px grey;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  transition:transform 200ms ease-in;
+  background-color: rgb(240, 234, 192);
+
+}
+
+.card-img{
+  height: 12rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-text {
+  padding: 1rem;
+}
+
+.card-btn {
+  padding: 1rem;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 1rem;
+  border: 2px solid orangered;
+  background: transparent;
+  color: orangered;
+  border-radius: 5px;
+  cursor: pointer;
+  transition:background 200ms ease-in, color 200ms ease-in;
+}
+
+.card:hover{
+  transform:scale(1.02);
+}
+
+.card:hover .card-btn{
+  background: orangered;
+  color:white;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 1rem;
+  background: wheat;
+}
+
+.wrapper {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+  gap: 2rem;
+  justify-content: center;
+}
+
+.card {
+  overflow: hidden;
+  box-shadow: 0 2px 20px grey;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: transform 200ms ease-in;
+  background-color: rgb(240, 234, 192);
+}
+
+.card-img {
+  height: 12rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-text {
+  padding: 1rem;
+}
+
+.card-btn {
+  padding: 1rem;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 1rem;
+  border: 2px solid orangered;
+  background: transparent;
+  color: orangered;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 200ms ease-in, color 200ms ease-in;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card:hover .card-btn {
+  background: orangered;
+  color: white;
+}
